@@ -1,7 +1,7 @@
 {
   "name": "react-advanced-itvdn-boilerplate",
   "version": "1.0.0",
-  "description": "simple boilerplate - react advanced course (itvdn)",
+  "description": "react_chart",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

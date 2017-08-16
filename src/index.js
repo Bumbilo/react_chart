@@ -3,13 +3,16 @@ import { render } from 'react-dom'
 import 'assets/styles/styles.scss'
 import HelloComponent from 'components/HelloComponent'
 import { AppContainer } from 'react-hot-loader'
+import {App} from './App';
+
 
 
 const renderApp = Component => {
 	render(
 		<AppContainer>
 			<Component />
-		</AppContainer>,
+				<App/>
+			</AppContainer>,
 		document.querySelector('#mount_place')
 	)
 }
